@@ -9,7 +9,7 @@ PXE lab OK: got 192.168.128.4 from 192.168.128.1
 iPXE> _
 ```
 
-![Client PXE boot success](screenshots/client-pxe-success.png)
+![Client PXE boot success](results/result.png)
 
 ---
 
