@@ -1,0 +1,44 @@
+Nov 02 21:48:07 pxe-server dnsmasq-dhcp[6616]: 2674288254 available DHCP subnet: 192.168.128.0/255.255.255.0
+Nov 02 21:48:07 pxe-server dnsmasq-dhcp[6616]: 2674288254 vendor class: PXEClient:Arch:00011:UNDI:003000
+Nov 02 21:48:07 pxe-server dnsmasq-dhcp[6616]: 2674288254 PXE(enp0s2) 92:41:a4:2c:97:dc proxy
+Nov 02 21:48:07 pxe-server dnsmasq-dhcp[6616]: 2674288254 tags: enp0s2
+Nov 02 21:48:07 pxe-server dnsmasq-dhcp[6616]: 2674288254 next server: 192.168.128.2
+Nov 02 21:48:07 pxe-server dnsmasq-dhcp[6616]: 2674288254 broadcast response
+Nov 02 21:48:07 pxe-server dnsmasq-dhcp[6616]: 2674288254 sent size:  1 option: 53 message-type  2
+Nov 02 21:48:07 pxe-server dnsmasq-dhcp[6616]: 2674288254 sent size:  4 option: 54 server-identifier  192.168.128.2
+Nov 02 21:48:07 pxe-server dnsmasq-dhcp[6616]: 2674288254 sent size:  9 option: 60 vendor-class  50:58:45:43:6c:69:65:6e:74
+Nov 02 21:48:07 pxe-server dnsmasq-dhcp[6616]: 2674288254 sent size: 17 option: 97 client-machine-id  00:79:26:5a:d9:7a:5c:35:4a:b1:7a:cd:6c:d9...
+Nov 02 21:48:10 pxe-server dnsmasq-dhcp[6616]: 2674288254 available DHCP subnet: 192.168.128.0/255.255.255.0
+Nov 02 21:48:10 pxe-server dnsmasq-dhcp[6616]: 2674288254 vendor class: PXEClient:Arch:00011:UNDI:003000
+Nov 02 21:48:10 pxe-server dnsmasq-dhcp[6616]: 2604642805 available DHCP subnet: 192.168.128.0/255.255.255.0
+Nov 02 21:48:10 pxe-server dnsmasq-dhcp[6616]: 2604642805 vendor class: PXEClient:Arch:00011:UNDI:003000
+Nov 02 21:48:10 pxe-server dnsmasq-dhcp[6616]: 2604642805 PXE(enp0s2) 92:41:a4:2c:97:dc proxy
+Nov 02 21:48:10 pxe-server dnsmasq-dhcp[6616]: 2604642805 tags: enp0s2
+Nov 02 21:48:10 pxe-server dnsmasq-dhcp[6616]: 2604642805 bootfile name: ipxe-arm64.efi
+Nov 02 21:48:10 pxe-server dnsmasq-dhcp[6616]: 2604642805 server name: 192.168.128.2
+Nov 02 21:48:10 pxe-server dnsmasq-dhcp[6616]: 2604642805 next server: 192.168.128.2
+Nov 02 21:48:10 pxe-server dnsmasq-dhcp[6616]: 2604642805 sent size:  1 option: 53 message-type  5
+Nov 02 21:48:10 pxe-server dnsmasq-dhcp[6616]: 2604642805 sent size:  4 option: 54 server-identifier  192.168.128.2
+Nov 02 21:48:10 pxe-server dnsmasq-dhcp[6616]: 2604642805 sent size:  9 option: 60 vendor-class  50:58:45:43:6c:69:65:6e:74
+Nov 02 21:48:10 pxe-server dnsmasq-dhcp[6616]: 2604642805 sent size: 17 option: 97 client-machine-id  00:79:26:5a:d9:7a:5c:35:4a:b1:7a:cd:6c:d9...
+Nov 02 21:48:11 pxe-server dnsmasq-tftp[6616]: error 8 User aborted the transfer received from 192.168.128.4
+Nov 02 21:48:11 pxe-server dnsmasq-tftp[6616]: failed sending /srv/tftp/ipxe-arm64.efi to 192.168.128.4
+Nov 02 21:48:11 pxe-server dnsmasq-tftp[6616]: sent /srv/tftp/ipxe-arm64.efi to 192.168.128.4
+Nov 02 21:48:11 pxe-server dnsmasq-tftp[6616]: file /srv/tftp/autoexec.ipxe not found for 192.168.128.4
+Nov 02 21:48:11 pxe-server dnsmasq-tftp[6616]: file /srv/tftp/autoexec.ipxe not found for 192.168.128.4
+Nov 02 21:48:14 pxe-server dnsmasq-dhcp[6616]: 2204701506 available DHCP subnet: 192.168.128.0/255.255.255.0
+Nov 02 21:48:14 pxe-server dnsmasq-dhcp[6616]: 2204701506 vendor class: PXEClient
+Nov 02 21:48:14 pxe-server dnsmasq-dhcp[6616]: 2204701506 user class: iPXE
+Nov 02 21:48:14 pxe-server dnsmasq-dhcp[6616]: 2204701506 PXE(enp0s2) 92:41:a4:2c:97:dc proxy
+Nov 02 21:48:14 pxe-server dnsmasq-dhcp[6616]: 2204701506 tags: ipxe, enp0s2
+Nov 02 21:48:14 pxe-server dnsmasq-dhcp[6616]: 2204701506 bootfile name: boot.ipxe
+Nov 02 21:48:14 pxe-server dnsmasq-dhcp[6616]: 2204701506 next server: 192.168.128.2
+Nov 02 21:48:14 pxe-server dnsmasq-dhcp[6616]: 2204701506 broadcast response
+Nov 02 21:48:14 pxe-server dnsmasq-dhcp[6616]: 2204701506 sent size:  1 option: 53 message-type  2
+Nov 02 21:48:14 pxe-server dnsmasq-dhcp[6616]: 2204701506 sent size:  4 option: 54 server-identifier  192.168.128.2
+Nov 02 21:48:14 pxe-server dnsmasq-dhcp[6616]: 2204701506 sent size:  9 option: 60 vendor-class  50:58:45:43:6c:69:65:6e:74
+Nov 02 21:48:14 pxe-server dnsmasq-dhcp[6616]: 2204701506 sent size: 17 option: 97 client-machine-id  00:79:26:5a:d9:7a:5c:35:4a:b1:7a:cd:6c:d9...
+Nov 02 21:48:14 pxe-server dnsmasq-dhcp[6616]: 2204701506 available DHCP subnet: 192.168.128.0/255.255.255.0
+Nov 02 21:48:14 pxe-server dnsmasq-dhcp[6616]: 2204701506 vendor class: PXEClient
+Nov 02 21:48:14 pxe-server dnsmasq-dhcp[6616]: 2204701506 user class: iPXE
+Nov 02 21:48:19 pxe-server dnsmasq-tftp[6616]: sent /srv/tftp/boot.ipxe to 192.168.128.4

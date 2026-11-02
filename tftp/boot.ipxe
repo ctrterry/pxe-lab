@@ -1,0 +1,6 @@
+#!ipxe
+echo
+echo ========================================
+echo   PXE lab OK: got ${net0/ip} from ${next-server}
+echo ========================================
+shell
